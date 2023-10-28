@@ -4,7 +4,7 @@ import { LOGOUT } from '../actions/types';
 
 // Create an instance of axios
 const api = axios.create({
-  baseURL: 'https://devcommunity-7tqnuh759-dhiraj-kaushiks-projects.vercel.app/api',
+  baseURL: 'https://devcommunity-70sw2z8gh-dhiraj-kaushiks-projects.vercel.app/',
   headers: {
     'Content-Type': 'application/json'
   }
