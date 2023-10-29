@@ -1,4 +1,4 @@
-import api from '../utils/api';
+import api from '../util/api';
 import { setAlert } from './alert';
 
 import {
@@ -93,7 +93,7 @@ export const createProfile =
   (formData, edit = false) =>
   async (dispatch) => {
     try {
-      const res = await api.post('/profile', formData);
+      const res = await api.post('/profile/me', formData);
 
       dispatch({
         type: GET_PROFILE,

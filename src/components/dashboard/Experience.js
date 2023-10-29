@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { deleteExperience } from '../../actions/profile';
-import formatDate from '../../utils/formatDate';
+import formatDate from '../../util/formatDate';
 
 const Experience = ({ experience, deleteExperience }) => {
   const experiences = experience && experience.length>0 &&experience.map((exp) => (
